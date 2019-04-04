@@ -74,6 +74,7 @@ namespace Bhulakkad.Controllers
             return NoContent();
         }
 
+        [HttpPatch]
         public ActionResult PartiallyUpdateLoginDetails(int id,
             [FromBody] JsonPatchDocument<LoginDetail> patchDoc)
         {
@@ -105,6 +106,22 @@ namespace Bhulakkad.Controllers
             {
                 return BadRequest();
             }
+
+            return NoContent();
+        }
+
+        [HttpDelete]
+        public ActionResult Delete(string Site)
+        {
+            var loginDetailForDelete =
+                LoginDetailStore.Current.LoginDetails.FirstOrDefault(LoginDetail => LoginDetail.Site == Site);
+
+            if (loginDetailForDelete == null)
+            {
+                return NotFound();
+            }
+
+            LoginDetailStore.Current.LoginDetails.Remove(loginDetailForDelete);
 
             return NoContent();
         }
