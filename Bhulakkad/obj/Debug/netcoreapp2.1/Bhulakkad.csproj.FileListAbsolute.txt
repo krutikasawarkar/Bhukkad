@@ -1,0 +1,14 @@
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.deps.json
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.runtimeconfig.json
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.runtimeconfig.dev.json
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.dll
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.pdb
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.csprojAssemblyReference.cache
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.csproj.CoreCompileInputs.cache
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorAssemblyInfo.cache
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorAssemblyInfo.cs
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.AssemblyInfoInputs.cache
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.AssemblyInfo.cs
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorTargetAssemblyInfo.cache
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.dll
+C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.pdb
