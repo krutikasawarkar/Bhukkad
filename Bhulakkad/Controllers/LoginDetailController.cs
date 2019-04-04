@@ -26,9 +26,18 @@ namespace Bhulakkad.Controllers
         }
 
         [HttpPost("CreateLoginDetail")]
-        public OkResult CreateLoginDetail(
+        public ActionResult CreateLoginDetail(
             [FromBody] LoginDetail login)
         {
+            if (login == null)
+            {
+                return BadRequest();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             var maxId = _loginDetailRepository.GetLoginDetails().Max(x => x.Id);
             var finalLoginDetail = new LoginDetail()
             {
