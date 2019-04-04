@@ -27,9 +27,9 @@ namespace Bhulakkad.Controllers
 
         [HttpPost("CreateLoginDetail")]
         public ActionResult CreateLoginDetail(
-            [FromBody] LoginDetail login)
+            [FromBody] LoginDetail loginDetail)
         {
-            if (login == null)
+            if (loginDetail == null)
             {
                 return BadRequest();
             }
@@ -42,14 +42,35 @@ namespace Bhulakkad.Controllers
             var finalLoginDetail = new LoginDetail()
             {
                 Id = ++maxId,
-                Site = login.Site,
-                UserName = login.UserName,
-                Password = login.Password
+                Site = loginDetail.Site,
+                UserName = loginDetail.UserName,
+                Password = loginDetail.Password
             };
 
             LoginDetailStore.Current.LoginDetails.Add(finalLoginDetail);
 
             return Ok();
+        }
+
+        [HttpPut]
+        public ActionResult Put([FromBody] LoginDetail loginDetail)
+        {
+            if (loginDetail == null)
+            {
+                return BadRequest();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var logindetailForUpdate = LoginDetailStore.Current.LoginDetails.FirstOrDefault(
+                loginInfo => loginInfo.Id == loginDetail.Id);
+
+            LoginDetailStore.Current.LoginDetails.Add(logindetailForUpdate);
+
+            return NoContent();
         }
     }
 }
