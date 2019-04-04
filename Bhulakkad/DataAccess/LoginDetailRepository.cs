@@ -7,8 +7,7 @@ namespace Bhulakkad.DataAccess
     {
         public List<LoginDetail> GetLoginDetails()
         {
-            LoginDetailStore ls = new LoginDetailStore();
-            return LoginDetailStore.LoginDetailsStore;
+            return LoginDetailStore.Current.LoginDetails;
         }
     }
 }

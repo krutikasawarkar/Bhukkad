@@ -5,11 +5,12 @@ namespace Bhulakkad.DataAccess
 {
     public class LoginDetailStore
     {
-        public static List<LoginDetail> LoginDetailsStore { get; set; }
+        public static LoginDetailStore Current { get; } = new LoginDetailStore();
+        public List<LoginDetail> LoginDetails { get; set; }
 
         public LoginDetailStore()
         {
-            LoginDetailsStore = new List<LoginDetail>()
+            LoginDetails = new List<LoginDetail>()
             {
                 new LoginDetail()
                 {

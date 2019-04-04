@@ -38,7 +38,7 @@ namespace Bhulakkad.Controllers
                 Password = login.Password
             };
 
-            LoginDetailStore.LoginDetailsStore.Add(finalLoginDetail);
+            LoginDetailStore.Current.LoginDetails.Add(finalLoginDetail);
 
             return Ok();
         }

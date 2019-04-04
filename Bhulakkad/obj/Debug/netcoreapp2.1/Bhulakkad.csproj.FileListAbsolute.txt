@@ -12,3 +12,17 @@ C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\
 C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorTargetAssemblyInfo.cache
 C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.dll
 C:\Users\sawa_kru\Documents\Visual Studio 2017\Projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.pdb
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.deps.json
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.runtimeconfig.json
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.runtimeconfig.dev.json
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.dll
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\bin\Debug\netcoreapp2.1\Bhulakkad.pdb
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.csprojAssemblyReference.cache
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.csproj.CoreCompileInputs.cache
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorAssemblyInfo.cache
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorAssemblyInfo.cs
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.AssemblyInfoInputs.cache
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.AssemblyInfo.cs
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.RazorTargetAssemblyInfo.cache
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.dll
+E:\Krutika\VS Code projects\Bhulakkad\Bhulakkad\obj\Debug\netcoreapp2.1\Bhulakkad.pdb
